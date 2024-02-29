@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg robinhood-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="images/robinhoodLogo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="far fa-bars" style="color: #ffffff;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              What we Offer <span><img src="images/dropdown.png" alt=""></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gold</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Learn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Snacks</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav right-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">
+              US <span><img src="images/language.svg" alt=""></span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link button primary-button" href="">LogIn</a>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link button primary-button-transparent" href="">
+              Register
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <banner>
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 description-part">
+            <h1>
+              Make your <span class="green-text">Money</span> <br> do the most
+            </h1>
+            <p>
+              Earn our highest rate ever on uninvested cash, FDIC-insured up to $2.25M at partner banks.* Robinhood Gold
+              is free for the first 30 days, then just $5/month.
+            </p>
+            <a class="button primary-button" href="">Join Robinhood Gold</a>
+          </div>
+          <div class="col-lg-6 image-section">
+            <img src="images/bannerimg.png" alt="">
+            <p class="disclosures"><span><img class="info-icon" src="images/iIcon.svg" alt=""></span>Cash sweep
+              disclosures</p>
+            <p class="terms-text">*Terms apply. Rate subject to change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </banner>
+
+  <!-- <gallery>
+    <h2>Check out our latest</h2>
+    <div class="gallery">
+      <div class="gallery-row-one">
+        <div class="image-box image-one">
+          <div class="image-one-image">
+            <img class="theimage" src="images/img1forGal.png" alt="">
+          </div>
+          <div class="image-one-details details-hovered">
+            <h3>Earn income on stocks you own</h3>
+            <a class="button primary-button-white" href="">Learn more about Stock Lending</a>
+            <p><span><img src="images/iIcon.svg" class="info-icon" alt=""></span>Cash sweep disclosures</p>
+          </div>
+          <div class="hovered-box ">
+            <div class=" image-one-details">
+              <h3>Earn income on
+                stocks you own</h3>
+              <h5>Get the opportunity to earn income on stocks you already own—just by turning on Stock Lending.</h5>
+              <p class="disclosures"><span><img src="images/green-iIcon.svg" class="info-icon" alt=""></span>Cash sweep
+                disclosures</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="image-box image-two">
+          <img class="theimage" src="images/img2forGal.png" alt="">
+          <div class="details-hovered">
+            <a class="button primary-button-small" href="">Download Robinhood Wallet</a>
+          </div>
+          <div class="hovered-box">
+            <h3>Own & control your crypto in
+              a web3 wallet</h3>
+            <h5>Robinhood Wallet is your self-custody home for crypto, NFTs, dapps, and more.</h5>
+            <p class="disclosures"><span><img class="info-icon" src="images/green-iIcon.svg" alt=""></span>NCW
+              Disclosures</p>
+          </div>
+        </div>
+        <div class="image-box image-three-n-seven">
+          <img class="theimage" src="images/img3forGal.png" alt="">
+          <div class="hovered-box">
+            <h3>The only IRA with a match.</h3>
+            <p>Introducing Robinhood Retirement - Get a 1% match, custom recommended portfolios, and no commission fees.
+            </p>
+            <a class="button primary-button-small" href="">Learn More</a>
+            <p class="disclosures"><span><img class="info-icon" src="images/white-iIcon.svg" alt=""></span>Cash sweep
+              disclosures</p>
+          </div>
+        </div>
+        <div class="image-box">
+          <img class="theimage" src="images/img4forGal.png" alt="">
+          <div class="image-box-four-content">
+            <h3>Choose your free stock</h3>
+            <p>Sign up for Robinhood or refer a friend to choose your free fractional share in companies you love.
+              Certain limitations apply.</p>
+            <p class="disclosures"><span><img class="info-icon" src="images/green-iIcon.svg" alt=""></span>Free Stock Disclosures</p>
+            <a  class="button primary-button-small" href="">Sign up to claim your free stock</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery-row-two">
+        <div class="image-box image-box-five">
+          <img class="theimage" src="images/img5forGal.png" alt="">
+          <a class="button primary-button-small" href="">Sign Up Now</a>
+          <div class="hovered-box">
+            
+            <h3>Trade your favorite stocks anytime</h3>
+            <p>The 24 Hour Market is here. Trade TSLA, AMZN, AAPL, and more of your favorite stocks and ETFs 24 hours a
+              day, 5 days a week.</p>
+            <p class="disclosures"><span><img class="info-icon" src="images/green-iIcon.svg" alt=""></span>Limitations and risks apply</p>
+          </div>
+        </div>
+        <div class="image-box image-box-six ">
+          <img class="theimage" src="images/img6forGal.png" alt="">
+          <a class="button primary-button-small" href="">Start Earning</a>
+          <div class="hovered-box">
+            <div class=" image-one-details">
+            <h3>Make money on
+              your money with
+              Robinhood Gold</h3>
+            <p>Get the opportunity to earn income on stocks you already own—just by turning on Stock Lending.</p>
+            <p class="disclosures"><span><img class="info-icon" src="images/green-iIcon.svg" alt=""></span>Cash sweep disclosures</p>
+          </div></div>
+        </div>
+        <div class="image-box image-three-n-seven">
+          <img class="theimage" src="images/img7forGal.png" alt="">
+          <div class="hovered-box">
+            <h3>Give the gift of crypto</h3>
+            <p class="width-contrl">Crypto gifts allow you to send your favorite crypto to your favorite people from the Robinhood app.</p>
+            <a class="button primary-button-small" href="">Learn more about Crypto gifts</a>
+            <p class="disclosures"><span><img class="imfo-icon" src="images/white-iIcon.svg" alt=""></span>Crypto Gifts Disclosures</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </gallery> -->
+
+  <section>
+    <h2>What We Offer</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="row grd grd-one">
+            <div class="col-lg-6 col-md-6 col-12 img-col-for-grd">
+              <img class="grd-one-img" src="images/img1forGrd.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 grd-details-part">
+              <div class="button-div">
+                <a class="button primary-button-white" href="">Learn more </a>
+              </div>
+              
+              <h4><span>Investing </span>  Build your portfolio starting with just $1</h4>
+              <h5>Invest in stocks, options, and ETFs at your pace and commission-free.</h5>
+        </div>
+        <p class="disclosures"><span><img class="info-icon" src="images/iIcon.svg" alt=""></span>Crypto Gifts Disclosures</p>
+
+          </div>
+
+          <h6 class="grd-text">
+            Stocks & funds offered through Robinhood Financial. Other fees may apply. See our <span>Free schedule
+            </span> for more details.
+          </h6>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="row grd grd-two">
+            <div class="col-lg-6 col-md-6 col-12 img-col-for-grd">
+              <img class="grd-two-img" src="images/img2forGrd.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 grd-details-part">
+              <div class="button-div">
+                <a class="button primary-button-small" href="">Learn more </a>
+              </div>
+              
+              <h4><span>Crypto </span>Dive right in without the commission fees</h4>
+              <h5>Get more crypto for your cash—and start with as little as $1. Buy, sell, and transfer BTC, DOGE, ETH,
+                SHIB, and more.</h5>
+
+               </div> 
+              <p class="disclosures"><span><img class="info-icon" src="images/white-iIcon.svg" alt=""></span>Crypto Risks Disclosures</p>
+            
+          </div>
+          <h6  class="grd-text">
+            Crypto offered through Robinhood Crypto, LLC. Other fees may apply. See our. See our<span>RHC Free schedule
+            </span> for more details.
+          </h6>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="row grd grd-three">
+            <div class="col-lg-6 col-md-6 col-12 img-col-for-grd">
+              <img class="grd-three-img" src="images/img3forGrd.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 grd-details-part">
+              <div class="button-div">
+                <a class="button primary-button-white" href="">Learn more </a>
+              </div>
+              
+              <h4><span>Retirement </span>The only IRA with a match.</h4>
+              <h5>Introducing Robinhood Retirement– Get a 1% match, custom recommended portfolios, and no commission
+                fees.</h5>
+            </div> 
+            <p class="disclosures"><span><img class="info-icon" src="images/white-iIcon.svg" alt=""></span>Investing Disclosures</p>
+         </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+          <div class="row grd grd-four">
+            <div class="col-lg-6 col-md-6 col-12 img-col-for-grd">
+              <img class="grd-four-img" src="images/img4forGrd.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 grd-details-part">
+              <div class="button-div">
+                <a class="button primary-button-small" href="">Learn more </a>
+              </div>
+              
+              <h4><span>Cash Card </span>Invest as you spend</h4>
+              <h5>Introducing the new Robinhood Cash Card—it's the debit card that helps you invest when you spend.</h5>
+             
+            </div>
+             <h6>The Robinhood Cash Card and other spending products offered through Robinhood Money, LLC.</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h3 class="previous-cmp">Looking for our previous Cash Management program? <a class="button primary-button" href="">Click Here</a></h3> 
+
+   <section>
+    <div class="protection-banner">
+      <div class="container">
+      <h2>Robinhood Protection Guarantee</h2>
+      <a class="button primary-button-transparent" href="">Learn more about our commitments</a>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="border-box">
+            <img src="images/security1.png" alt="">
+          </div>
+          <p>We work hard to keep your data safe and secure.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="border-box">
+             <img src="images/security2.png" alt="">
+          </div>
+         
+          <p>We protect your account from unauthorized activity.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="border-box">
+             <img src="images/security3.png" alt="">
+          </div>
+         
+          <p>We provide multi-factor authentication on all accounts.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="border-box">
+            <img src="images/security4.png" alt="">
+          </div>
+          
+          <p>We’ve got your back. We’re available to you 24/7.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    
+  </section>
+
+  <banner2>
+    <div class="banner2">
+      <div class="banner2-image"> 
+      </div>
+
+      <div class="banner2-content">
+        <div class="container">
+          <div class="row">
+        <div class="col-lg-6">
+          <h1><span>Become</span> a better investor on the go, <span></span>   right in the app</h1>
+          <h3>Join a <span> New Generation of Investors</span></h3>
+          <a class="button primary-button">Sign up to access Robinhood Learn</a>
+        </div>
+        <div class="col-lg-6 image-col">
+          <img src="images/banner2Img.png" alt="">
+          <p>Here's a preview of the things you
+            can learn when you sign up.</p>
+        </div>
+      </div>
+        </div>
+      
+    </div>
+    </div> 
+  </banner2>
+
+  <footer>
+    <div class="container footer-container">
+      <div class="row">
+        <div class="col-lg-5 col-md-4 col-sm-4">
+          <h5 class="footer-left-head">DEMOCRATIZE FINANCE FOR ALL™</h5>
+          <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-4">
+              <h5>Product</h5>
+              <h6>Invest</h6>
+              <h6>Gold</h6>
+              <h6>Crypto</h6>
+              <h6>Retirement</h6>
+              <h6>Options</h6>
+              <h6>Cash Card</h6>
+              <h6>Learn</h6>
+              <h6>Snacks</h6>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-4">
+              <h5>Company</h5>
+              <h6>About Us </h6>
+              <h6>Blog</h6>
+              <h6>Affiliates</h6>
+              <h6>Press</h6>
+              <h6>Careers</h6>
+              <h6>Our Customers</h6>
+              <h6>Investor Relations</h6>
+              <h6>Investor Index</h6>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 col-4">
+              <h5>Other links</h5>
+              <h6>Support</h6>
+              <h6>ESG</h6>
+              <h6>Podcast</h6>
+              <h6>Commitments</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 col-md-8 col-sm-8">
+          <div class="right-side-btn-div">
+            <a href="">Brokerage Customer Relationship Summary</a>
+            
+          <a href="">FINRA’s BrokerCheck</a>
+          </div>
+          <div class="row logo-n-links">
+            <div class="col-lg-8 col-md-8 col-8 logo">
+              <img class="footer-logo-img" src="images/logoFooter.png" alt="">
+              <div class="logo-des">
+                <p>PARTICIPATION IS POWER™</p>
+                <p>All investing involves risk.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-4 links">
+              <h5>Follow Us On</h5>
+              <p>
+                <img src="images/facebook.png" alt="">
+                <img src="images/twitter.png" alt="">
+                <img src="images/instagram.png" alt="">
+                <img src="images/youtube.png" alt="">
+              </p>
+            </div>
+          </div>
+          <p class="footer-description">Brokerage services are offered through Robinhood Financial LLC, (“RHF”) a registered broker dealer (member
+            <span>SIPC</span>) and clearing services through Robinhood Securities, LLC, (“RHS”) a registered broker dealer (member
+            <span>SIPC</span> ). Cryptocurrency services are offered through Robinhood Crypto, LLC (“RHC”) (NMLS ID: 1702840). The
+            Robinhood Money spending account is offered through Robinhood Money, LLC (“RHY”) (NMLS ID: 1990968), a
+            licensed money transmitter. The Robinhood Cash Card is a prepaid card issued by Sutton Bank, Member FDIC,
+            pursuant to a license from Mastercard® International Incorporated. RHF, RHY, RHC and RHS are affiliated
+            entities and wholly owned subsidiaries of Robinhood Markets, Inc. RHF, RHY, RHC and RHS are not banks.
+            Securities products offered by RHF are not FDIC insured and involve risk, including possible loss of
+            principal. Cryptocurrencies held in RHC accounts are not covered by FDIC or SIPC protections and are not
+            regulated by FINRA. RHY products are not subject to SIPC coverage but funds held in the Robinhood Money
+            spending account and Robinhood Cash Card account may be eligible for FDIC pass-through insurance (see the
+          <span>  Robinhood Cash Card Agreement </span>and the <span> Robinhood Spending Account</span> )</p>
+          <p> @ 2023 Robinhood. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+      <div class="subfooter">
+        <div class="container">
+           <a href="">Terms & Conditions</a>
+        <a href="">Disclosures</a>
+        <a href="">Privacy</a>
+        <a href="">Your Privacy Choices</a>
+        <a href="">Law Enforcement Requests</a>
+        </div>
+       
+      </div>
+   
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  </script>
+</body>
+
+</html>
