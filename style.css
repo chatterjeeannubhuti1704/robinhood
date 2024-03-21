@@ -186,17 +186,20 @@ h6 {
 .gallery {
     overflow-x: scroll;
     width: 100%;
-
+    /* display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto auto auto; */
 }
-
+.gallery .row {
+    flex-wrap: nowrap;}
 /* .gallery::-webkit-scrollbar {
     display: none;
-} */
+} 
 .gallery-row-one,
 .gallery-row-two {
     display: flex;
     margin: 10px 0;
-}
+}*/
 
 .image-box {
     width: fit-content;
@@ -213,7 +216,7 @@ h6 {
 }
 
 .image-box img {
-    border-radius: 10px;
+    border-radius: 10px;max-width: 100%;
 }
 
 .image-one-details {
@@ -221,7 +224,7 @@ h6 {
     justify-content: center;
     flex-direction: column;
     padding: 0px 39px 0 20px;
-    width: 24rem;
+    /* width: 24rem; */
 }
 
 .image-one-details h3,
@@ -386,6 +389,11 @@ h6 {
 .width-contrl {
     width: 52%;
 }
+
+
+
+
+
 
 .grd {
     border-radius: 10px;
@@ -703,6 +711,28 @@ h6 {
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
+}
+
+.hidden{
+    transform: translateX(-100px) scale(0.5);
+    transition: 0.5s;
+}
+.hidden-grd:nth-child(1), .hidden-grd:nth-child(3){
+    transform: translateX(-100px) scale(0.5);
+    transition:0.5s;
+}
+.hidden-grd:nth-child(2), .hidden-grd:nth-child(4){
+    transform: translateX(-200px) scale(0.5);
+    transition: 1s;
+}
+.hidden-hero{
+    transform: translateY(-100px) ; transition: 1s;
+}
+.hidden-hero-button{
+    transform:scale(0.5);
+}
+.show{
+    transform: translateX(0px) scale(1) !important;
 }
 
 @media screen and (max-width:1399px) {
